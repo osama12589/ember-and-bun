@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight, Check, Clock3, CreditCard, Flame, MapPin, Minus,
 import { useBag } from '@/components/store-provider';
 import { burgers, money } from '@/lib/menu';
 
-const API_URL = 'http://127.0.0.1:4000/api/orders';
+const API_URL = '/api/orders';
 type Fulfillment = 'asap' | 'tonight' | 'pickup';
 type PaymentMethod = 'card' | 'cash';
 
